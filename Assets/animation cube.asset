@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: animation cube
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"7db79616-7f6b-4e70-9da3-f72717dea445","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"0b5150cf-8978-4fe8-ad04-88445ca3328f","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"key":{"$content":"B","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-22.0,"y":-20.0},"guid":"7ae6a0f8-2a30-4e20-9285-360c2f48dde4","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"13"},{"chainable":false,"member":{"name":"Update","parameterTypes":["System.Single"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%deltaTime":{"$content":0.0,"$type":"System.Single"}},"position":{"x":179.0,"y":-2.0},"guid":"2aa113dc-7e2d-4895-9d95-c5dcbadb9d46","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"ad101f05-e311-4ec7-a2e8-06a1f2a83582","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
